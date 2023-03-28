@@ -8,7 +8,7 @@ const questionSchema = new mongoose.Schema({
     },
     options:[{
         type:mongoose.Schema.Types.ObjectId, // list of options for a individual questions
-        ref:'Option'
+        ref:'Option' 
     }]
 }, {
     timestamps: true,
